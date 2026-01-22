@@ -1,0 +1,93 @@
+/* Page wrapper keeps footer at bottom */
+.pageWrapper {
+  min-height: calc(100vh - 80px); /* adjust if header height differs */
+  display: flex;
+  justify-content: center;
+}
+
+/* Main container */
+.container {
+  width: 100%;
+  max-width: 900px;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* Question section */
+.questionSection {
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+}
+
+.questionDesc {
+  margin: 10px 0;
+}
+
+.meta {
+  font-size: 14px;
+  color: gray;
+}
+
+/* Answers */
+.answerHeader {
+  margin-top: 20px;
+}
+
+.answerCard {
+  display: flex;
+  gap: 12px;
+  padding: 15px;
+  border-radius: 8px;
+  background: #f9f9f9;
+}
+
+.answerBody p {
+  margin: 5px 0;
+}
+
+/* See more */
+.seeMore {
+  color: #007bff;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 6px;
+}
+
+.seeMore:hover {
+  text-decoration: underline;
+}
+
+/* No answer */
+.noAnswer {
+  color: red;
+  font-weight: bold;
+}
+
+/* Post answer */
+.postAnswer {
+  margin-top: 40px;
+}
+
+.postAnswer textarea {
+  width: 100%;
+  min-height: 120px;
+  padding: 10px;
+}
+
+.postAnswer button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Loading */
+.loading {
+  text-align: center;
+  margin-top: 50px;
+}
