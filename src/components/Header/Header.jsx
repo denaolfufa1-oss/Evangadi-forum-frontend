@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import classes from "./header.module.css";
-import EvangadiLogo from "../../Assets/Images/evangadi-logo-header.png";
+import EvangadiLogo from "../../assets/Images/evangadi-logo-header.png";
 import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Navbar, Nav, Button, Container } from "react-bootstrap";

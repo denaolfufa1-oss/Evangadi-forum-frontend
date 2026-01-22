@@ -3,7 +3,7 @@ import { Facebook } from "lucide-react";
 import { Instagram } from "lucide-react";
 import { Youtube } from "lucide-react";
 import { Link } from "react-router-dom";
-import footerLogo from "../../Assets/Images/evangadi-logo-footer.png";
+import footerLogo from "../../assets/Images/evangadi-logo-footer.png";
 
 function Footer() {
   return (
