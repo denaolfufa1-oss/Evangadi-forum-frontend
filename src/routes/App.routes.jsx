@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import Terms from "../components/Footer/Terms.jsx";
 import QuestionAndAnswer from "../pages/QuestionAndAnswer/QuestionAndAnswer.jsx";
-import AskQuestion from "../Pages/Question/AskQuestion/AskQuestion.jsx";
+import AskQuestion from "../pages/Question/AskQuestion/AskQuestion.jsx";
 import ForgotPassword from "../pages/ForgotPassword/Forgotpassword.jsx";
 import PageNotFound from "../pages/PageNotFound/PageNotFound.jsx";
 import PrivacyPolicy from "../Pages/PrivacyPolicy/PrivacyPolicy.jsx";
