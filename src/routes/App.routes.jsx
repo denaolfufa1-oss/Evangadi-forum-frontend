@@ -4,10 +4,10 @@ import QuestionAndAnswer from "../pages/QuestionAndAnswer/QuestionAndAnswer.jsx"
 import AskQuestion from "../pages/Question/AskQuestion/AskQuestion.jsx";
 import ForgotPassword from "../pages/ForgotPassword/Forgotpassword.jsx";
 import PageNotFound from "../pages/PageNotFound/PageNotFound.jsx";
-import PrivacyPolicy from "../Pages/PrivacyPolicy/PrivacyPolicy.jsx";
-import Home from "../Pages/Home/Home.jsx";
-import AuthLayout from "../Pages/AuthLayout/AuthLayout.jsx";
-import HowItWorks from "../Pages/HowItWorks/HowItWorks.jsx";
+import PrivacyPolicy from "../pages/PrivacyPolicy/PrivacyPolicy.jsx";
+import Home from "../pages/Home/Home.jsx";
+import AuthLayout from "../pages/AuthLayout/AuthLayout.jsx";
+import HowItWorks from "../pages/HowItWorks/HowItWorks.jsx";
 
 function AppRouter() {
   return (
