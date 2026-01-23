@@ -106,3 +106,4 @@ function QuestionAndAnswer() {
     </Layout>
   );
 }
+export default QuestionAndAnswer;
